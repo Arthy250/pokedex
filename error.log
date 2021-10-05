@@ -1,0 +1,455 @@
+info Found Xcode workspace "Pokedex.xcworkspace"
+info Building (using "xcodebuild -workspace Pokedex.xcworkspace -configuration Debug -scheme Pokedex -destination id=75F34598-8452-41CA-A2EB-CAE20627D184")
+error Failed to build iOS project. We ran "xcodebuild" command but it exited with error code 65. To debug build logs further, consider building your app with Xcode.app, by opening Pokedex.xcworkspace.
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace Pokedex.xcworkspace -configuration Debug -scheme Pokedex -destination id=75F34598-8452-41CA-A2EB-CAE20627D184
+
+User defaults from command line:
+    IDEPackageSupportUseBuiltinSCM = YES
+
+note: Using new build system
+note: Building targets in parallel
+note: Planning build
+note: Analyzing workspace
+note: Using build description from disk
+note: Build preparation complete
+warning: Capabilities for Signing & Capabilities may not function correctly because its entitlements use a placeholder team ID. To resolve this, select a development team in the Pokedex editor. (in target 'Pokedex' from project 'Pokedex')
+PhaseScriptExecution Start\ Packager /Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Intermediates.noindex/Pokedex.build/Debug-iphonesimulator/Pokedex.build/Script-FD10A7F022414F080027D42C.sh (in target 'Pokedex' from project 'Pokedex')
+    cd /Users/wordpressdeveloper/Desktop/ReactNative/Pokedex/ios
+    /bin/sh -c /Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Intermediates.noindex/Pokedex.build/Debug-iphonesimulator/Pokedex.build/Script-FD10A7F022414F080027D42C.sh
+Connection to localhost port 8081 [tcp/sunproxyadmin] succeeded!
+
+Ld /Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/Pokedex.app/Pokedex normal (in target 'Pokedex' from project 'Pokedex')
+    cd /Users/wordpressdeveloper/Desktop/ReactNative/Pokedex/ios
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-ios11.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.5.sdk -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphonesimulator -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/DoubleConversion -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/FBReactNativeSpec -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/RCT-Folly -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/RCTTypeSafety -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/RNCMaskedView -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/RNGestureHandler -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/RNImageColors -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/RNScreens -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/RNVectorIcons -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/React-Core -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/React-CoreModules -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/React-RCTAnimation -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/React-RCTBlob -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/React-RCTImage -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/React-RCTLinking -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/React-RCTNetwork -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/React-RCTSettings -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/React-RCTText -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/React-RCTVibration -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/React-cxxreact -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/React-jsi -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/React-jsiexecutor -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/React-jsinspector -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/React-perflogger -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/ReactCommon -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/Yoga -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/fmt -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/glog -L/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/react-native-safe-area-context -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.5.sdk/usr/lib/swift -F/Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator -filelist /Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Intermediates.noindex/Pokedex.build/Debug-iphonesimulator/Pokedex.build/Objects-normal/arm64/Pokedex.LinkFileList -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Intermediates.noindex/Pokedex.build/Debug-iphonesimulator/Pokedex.build/Objects-normal/arm64/Pokedex_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -ObjC -lDoubleConversion -lFBReactNativeSpec -lRCT-Folly -lRCTTypeSafety -lRNCMaskedView -lRNGestureHandler -lRNImageColors -lRNScreens -lRNVectorIcons -lReact-Core -lReact-CoreModules -lReact-RCTAnimation -lReact-RCTBlob -lReact-RCTImage -lReact-RCTLinking -lReact-RCTNetwork -lReact-RCTSettings -lReact-RCTText -lReact-RCTVibration -lReact-cxxreact -lReact-jsi -lReact-jsiexecutor -lReact-jsinspector -lReact-perflogger -lReactCommon -lYoga -lc++ -lfmt -lglog -lreact-native-safe-area-context -lstdc++ -framework AudioToolbox -framework JavaScriptCore -framework MobileCoreServices -ObjC -lc++ -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Intermediates.noindex/Pokedex.build/Debug-iphonesimulator/Pokedex.build/Pokedex.app-Simulated.xcent -lPods-Pokedex -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Intermediates.noindex/Pokedex.build/Debug-iphonesimulator/Pokedex.build/Objects-normal/arm64/Pokedex_dependency_info.dat -o /Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/Pokedex.app/Pokedex
+ld: warning: Could not find or use auto-linked library 'swiftCoreGraphics'
+ld: warning: Could not find or use auto-linked library 'swiftDarwin'
+ld: warning: Could not find or use auto-linked library 'swiftUIKit'
+ld: warning: Could not find or use auto-linked library 'swiftFoundation'
+ld: warning: Could not find or use auto-linked library 'swiftMetal'
+ld: warning: Could not find or use auto-linked library 'swiftObjectiveC'
+ld: warning: Could not find or use auto-linked library 'swiftCoreFoundation'
+ld: warning: Could not find or use auto-linked library 'swiftDispatch'
+ld: warning: Could not find or use auto-linked library 'swiftCoreImage'
+ld: warning: Could not find or use auto-linked library 'swiftQuartzCore'
+ld: warning: Could not find or use auto-linked library 'swiftCore'
+ld: warning: Could not find or use auto-linked library 'swiftSwiftOnoneSupport'
+Undefined symbols for architecture arm64:
+  "method descriptor for Swift.RawRepresentable.rawValue.getter : A.RawValue", referenced from:
+      l_got.$sSY8rawValue03RawB0QzvgTq in libRNImageColors.a(UIImageColors.o)
+  "associated type descriptor for Swift.RawRepresentable.RawValue", referenced from:
+      l_got.$s8RawValueSYTl in libRNImageColors.a(UIImageColors.o)
+  "protocol descriptor for Swift.RawRepresentable", referenced from:
+      l_got.$sSYMp in libRNImageColors.a(UIImageColors.o)
+  "protocol descriptor for Swift.Equatable", referenced from:
+      l_got.$sSQMp in libRNImageColors.a(UIImageColors.o)
+  "nominal type descriptor for Dispatch.DispatchWorkItemFlags", referenced from:
+      _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV in libRNImageColors.a(UIImageColors.o)
+  "protocol conformance descriptor for [A] : Swift.Sequence in Swift", referenced from:
+      lazy protocol witness table accessor for type [Dispatch.DispatchWorkItemFlags] and conformance [A] : Swift.Sequence in Swift in libRNImageColors.a(UIImageColors.o)
+  "method descriptor for Swift.Hashable._rawHashValue(seed: Swift.Int) -> Swift.Int", referenced from:
+      l_got.$sSH13_rawHashValue4seedS2i_tFTq in libRNImageColors.a(UIImageColors.o)
+  "protocol conformance descriptor for Dispatch.DispatchWorkItemFlags : Swift.SetAlgebra in Dispatch", referenced from:
+      lazy protocol witness table accessor for type Dispatch.DispatchWorkItemFlags and conformance Dispatch.DispatchWorkItemFlags : Swift.SetAlgebra in Dispatch in libRNImageColors.a(UIImageColors.o)
+  "type metadata for Swift.UInt64", referenced from:
+      lazy protocol witness table accessor for type Swift.UInt64 and conformance Swift.UInt64 : Swift.FixedWidthInteger in Swift in libRNImageColors.a(UIImageColors.o)
+  "protocol conformance descriptor for Swift.Double : Swift.BinaryFloatingPoint in Swift", referenced from:
+      lazy protocol witness table accessor for type Swift.Double and conformance Swift.Double : Swift.BinaryFloatingPoint in Swift in libRNImageColors.a(UIImageColors.o)
+  "__swiftEmptyArrayStorage", referenced from:
+      generic specialization <serialized, Dispatch.DispatchWorkItemFlags> of static Swift.Array._allocateUninitialized(Swift.Int) -> ([A], Swift.UnsafeMutablePointer<A>) in libRNImageColors.a(UIImageColors.o)
+  "static Swift.Array._allocateBufferUninitialized(minimumCapacity: Swift.Int) -> Swift._ArrayBuffer<A>", referenced from:
+      generic specialization <serialized, Dispatch.DispatchWorkItemFlags> of static Swift.Array._allocateUninitialized(Swift.Int) -> ([A], Swift.UnsafeMutablePointer<A>) in libRNImageColors.a(UIImageColors.o)
+  "protocol conformance descriptor for Swift.Range<A> : Swift.RangeExpression in Swift", referenced from:
+      lazy protocol witness table accessor for type Swift.Range<Swift.Double> and conformance Swift.Range<A> : Swift.RangeExpression in Swift in libRNImageColors.a(UIImageColors.o)
+  "protocol conformance descriptor for CoreGraphics.CGFloat : Swift.Hashable in CoreGraphics", referenced from:
+      lazy protocol witness table accessor for type CoreGraphics.CGFloat and conformance CoreGraphics.CGFloat : Swift.Hashable in CoreGraphics in libRNImageColors.a(UIImageColors.o)
+  "_swift_getForeignTypeMetadata", referenced from:
+      type metadata accessor for __C.NSComparisonResult in libRNImageColors.a(UIImageColors.o)
+  "protocol conformance descriptor for Swift.UInt8 : Swift.BinaryInteger in Swift", referenced from:
+      lazy protocol witness table accessor for type Swift.UInt8 and conformance Swift.UInt8 : Swift.BinaryInteger in Swift in libRNImageColors.a(UIImageColors.o)
+  "protocol conformance descriptor for < where A: Swift.Strideable, A.Stride: Swift.SignedInteger> Swift.ClosedRange<A> : Swift.Collection in Swift", referenced from:
+      lazy protocol witness table accessor for type Swift.ClosedRange<Swift.Int> and conformance < where A: Swift.Strideable, A.Stride: Swift.SignedInteger> Swift.ClosedRange<A> : Swift.Collection in Swift in libRNImageColors.a(UIImageColors.o)
+  "_swift_getTupleTypeMetadata2", referenced from:
+      Swift.Range.init(_uncheckedBounds: (lower: A, upper: A)) -> Swift.Range<A> in libRNImageColors.a(UIImageColors.o)
+      Swift.ClosedRange.init(_uncheckedBounds: (lower: A, upper: A)) -> Swift.ClosedRange<A> in libRNImageColors.a(UIImageColors.o)
+  "type metadata accessor for Swift.Range", referenced from:
+      Swift.Range.init(_uncheckedBounds: (lower: A, upper: A)) -> Swift.Range<A> in libRNImageColors.a(UIImageColors.o)
+  "(extension in Swift):Swift.ClosedRange< where A: Swift.Strideable, A.Stride: Swift.SignedInteger>.subscript.getter : ((extension in Swift):Swift.ClosedRange<A>< where A: Swift.Strideable, A.Stride: Swift.SignedInteger>.Index) -> A", referenced from:
+      (extension in Swift):Swift.ClosedRange< where A: Swift.Strideable, A.Stride: Swift.SignedInteger>.subscript.read : ((extension in Swift):Swift.ClosedRange<A>< where A: Swift.Strideable, A.Stride: Swift.SignedInteger>.Index) -> A in libRNImageColors.a(UIImageColors.o)
+  "_swift_unknownObjectRetain", referenced from:
+      reabstraction thunk helper from @escaping @callee_guaranteed (@in_guaranteed Any, @in_guaranteed Any) -> (@unowned __C.NSComparisonResult) to @callee_unowned @convention(block) (@unowned Swift.AnyObject, @unowned Swift.AnyObject) -> (@unowned __C.NSComparisonResult) in libRNImageColors.a(UIImageColors.o)
+  "_swift_getObjectType", referenced from:
+      reabstraction thunk helper from @escaping @callee_guaranteed (@in_guaranteed Any, @in_guaranteed Any) -> (@unowned __C.NSComparisonResult) to @callee_unowned @convention(block) (@unowned Swift.AnyObject, @unowned Swift.AnyObject) -> (@unowned __C.NSComparisonResult) in libRNImageColors.a(UIImageColors.o)
+  "dispatch thunk of Swift.BinaryInteger._lowWord.getter : Swift.UInt", referenced from:
+      CoreGraphics.CGFloat.init<A where A: Swift.BinaryInteger>(A) -> CoreGraphics.CGFloat in libRNImageColors.a(UIImageColors.o)
+  "static (extension in Swift):Swift.BinaryFloatingPoint< where A.RawSignificand: Swift.FixedWidthInteger>._convert<A where A1: Swift.BinaryInteger>(from: A1) -> (value: A, exact: Swift.Bool)", referenced from:
+      CoreGraphics.CGFloat.init<A where A: Swift.BinaryInteger>(A) -> CoreGraphics.CGFloat in libRNImageColors.a(UIImageColors.o)
+  "_swift_once", referenced from:
+      RNImageColors.ImageColors.ERRORS.ERROR_1.unsafeMutableAddressor : Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      RNImageColors.ImageColors.ERRORS.ERROR_2.unsafeMutableAddressor : Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      RNImageColors.ImageColors.ERRORS.ERROR_3.unsafeMutableAddressor : Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "type metadata for Swift.String", referenced from:
+      RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      closure #1 (RNImageColors.UIImageColors?) -> () in RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      @nonobjc __C.NSError.init(domain: Swift.String, code: Swift.Int, userInfo: [Swift.String : Any]?) -> __C.NSError in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "_swift_isEscapingClosureAtFileLocation", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "type metadata accessor for Foundation.NSFastEnumerationIterator", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+      lazy protocol witness table accessor for type Foundation.NSFastEnumerationIterator and conformance Foundation.NSFastEnumerationIterator : Swift.IteratorProtocol in Foundation in libRNImageColors.a(UIImageColors.o)
+  "_swift_getTypeByMangledNameInContext", referenced from:
+      ___swift_instantiateConcreteTypeFromMangledName in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "(extension in Swift):Swift.Range< where A: Swift.Strideable, A.Stride: Swift.SignedInteger>.index(after: A) -> A", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "(extension in Swift):Swift.ClosedRange< where A: Swift.Strideable, A.Stride: Swift.SignedInteger>.endIndex.getter : (extension in Swift):Swift.ClosedRange<A>< where A: Swift.Strideable, A.Stride: Swift.SignedInteger>.Index", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "protocol conformance descriptor for Swift.ClosedRange<A> : Swift.RangeExpression in Swift", referenced from:
+      lazy protocol witness table accessor for type Swift.ClosedRange<Swift.Double> and conformance Swift.ClosedRange<A> : Swift.RangeExpression in Swift in libRNImageColors.a(UIImageColors.o)
+  "static (extension in Swift):Swift.ClosedRange< where A: Swift.Strideable, A.Stride: Swift.SignedInteger>.Index.== infix((extension in Swift):Swift.ClosedRange<A>< where A: Swift.Strideable, A.Stride: Swift.SignedInteger>.Index, (extension in Swift):Swift.ClosedRange<A>< where A: Swift.Strideable, A.Stride: Swift.SignedInteger>.Index) -> Swift.Bool", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "base conformance descriptor for Swift.Hashable: Swift.Equatable", referenced from:
+      l_got.$sSHSQTb in libRNImageColors.a(UIImageColors.o)
+  "static (extension in Dispatch):__C.OS_dispatch_queue.global(qos: Dispatch.DispatchQoS.QoSClass) -> __C.OS_dispatch_queue", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality, _: (RNImageColors.UIImageColors?) -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+     (maybe you meant: default argument 0 of static (extension in Dispatch):__C.OS_dispatch_queue.global(qos: Dispatch.DispatchQoS.QoSClass) -> __C.OS_dispatch_queue)
+  "nominal type descriptor for Foundation.URL", referenced from:
+      _symbolic _____Sg 10Foundation3URLV in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "protocol witness table for Swift.Int : Swift.Strideable in Swift", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+      lazy protocol witness table accessor for type Swift.ClosedRange<Swift.Int> and conformance < where A: Swift.Strideable, A.Stride: Swift.SignedInteger> Swift.ClosedRange<A> : Swift.Collection in Swift in libRNImageColors.a(UIImageColors.o)
+  "type metadata accessor for Dispatch.DispatchWorkItemFlags", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality, _: (RNImageColors.UIImageColors?) -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+      closure #1 () -> () in (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality, _: (RNImageColors.UIImageColors?) -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+      default argument 2 of (extension in Dispatch):__C.OS_dispatch_queue.async(group: __C.OS_dispatch_group?, qos: Dispatch.DispatchQoS, flags: Dispatch.DispatchWorkItemFlags, execute: @convention(block) () -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+      generic specialization <serialized, Dispatch.DispatchWorkItemFlags> of static Swift.Array._allocateUninitialized(Swift.Int) -> ([A], Swift.UnsafeMutablePointer<A>) in libRNImageColors.a(UIImageColors.o)
+      lazy protocol witness table accessor for type Dispatch.DispatchWorkItemFlags and conformance Dispatch.DispatchWorkItemFlags : Swift.SetAlgebra in Dispatch in libRNImageColors.a(UIImageColors.o)
+  "Swift._assertionFailure(_: Swift.StaticString, _: Swift.String, file: Swift.StaticString, line: Swift.UInt, flags: Swift.UInt32) -> Swift.Never", referenced from:
+      (extension in RNImageColors):__C.UIImage.(resizeForUIImageColors in _AC2E7C9309FDFD8BC6B0187157C06AA1)(newSize: __C.CGSize) -> __C.UIImage? in libRNImageColors.a(UIImageColors.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "method descriptor for static Swift.Equatable.== infix(A, A) -> Swift.Bool", referenced from:
+      l_got.$sSQ2eeoiySbx_xtFZTq in libRNImageColors.a(UIImageColors.o)
+  "(extension in Swift):Swift.Range< where A: Swift.Strideable, A.Stride: Swift.SignedInteger>.startIndex.getter : A", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "type metadata for Any", referenced from:
+      RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      @nonobjc __C.NSError.init(domain: Swift.String, code: Swift.Int, userInfo: [Swift.String : Any]?) -> __C.NSError in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+      closure #1 (Any, Any) -> __C.NSComparisonResult in (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "type metadata for Swift.Int", referenced from:
+      RNImageColors.ImageColors.(toHexString in _F8948533575882E9C6CF2A2C14A8DEB5)(color: __C.UIColor) -> Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      lazy protocol witness table accessor for type Swift.Int and conformance Swift.Int : Swift.FixedWidthInteger in Swift in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      lazy protocol witness table accessor for type Swift.Int and conformance Swift.Int : Swift.BinaryInteger in Swift in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      lazy protocol witness table accessor for type Swift.Int and conformance Swift.Int : Swift.SignedInteger in Swift in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "Swift.Double.init(Swift.Double) -> Swift.Double", referenced from:
+      (extension in RNImageColors):Swift.Double.(uicolor in _AC2E7C9309FDFD8BC6B0187157C06AA1).getter : __C.UIColor in libRNImageColors.a(UIImageColors.o)
+  "type metadata for Swift.Double", referenced from:
+      (extension in RNImageColors):Swift.Double.(with in _AC2E7C9309FDFD8BC6B0187157C06AA1)(minSaturation: Swift.Double) -> Swift.Double in libRNImageColors.a(UIImageColors.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+      CoreGraphics.CGFloat.init<A where A: Swift.BinaryInteger>(A) -> CoreGraphics.CGFloat in libRNImageColors.a(UIImageColors.o)
+      lazy protocol witness table accessor for type Swift.Double and conformance Swift.Double : Swift.BinaryFloatingPoint in Swift in libRNImageColors.a(UIImageColors.o)
+  "static (extension in Swift):Swift.RangeExpression.~= infix(A, A.Bound) -> Swift.Bool", referenced from:
+      (extension in RNImageColors):Swift.Double.(with in _AC2E7C9309FDFD8BC6B0187157C06AA1)(minSaturation: Swift.Double) -> Swift.Double in libRNImageColors.a(UIImageColors.o)
+  "Swift.Double.init<A where A: Swift.BinaryInteger>(A) -> Swift.Double", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "Foundation.Data._bridgeToObjectiveC() -> __C.NSData", referenced from:
+      @nonobjc __C.UIImage.init(data: Foundation.Data) -> __C.UIImage? in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "(extension in Swift):Swift.RawRepresentable< where A: Swift.Hashable, A.Swift.RawRepresentable.RawValue: Swift.Hashable>._rawHashValue(seed: Swift.Int) -> Swift.Int", referenced from:
+      protocol witness for Swift.Hashable._rawHashValue(seed: Swift.Int) -> Swift.Int in conformance RNImageColors.UIImageColorsQuality : Swift.Hashable in RNImageColors in libRNImageColors.a(UIImageColors.o)
+  "(extension in Foundation):Swift.String.init(format: __shared Swift.String, _: Swift.CVarArg...) -> Swift.String", referenced from:
+      RNImageColors.ImageColors.(toHexString in _F8948533575882E9C6CF2A2C14A8DEB5)(color: __C.UIColor) -> Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "(extension in Swift):Swift.RawRepresentable< where A: Swift.Hashable, A.Swift.RawRepresentable.RawValue: Swift.Hashable>.hash(into: inout Swift.Hasher) -> ()", referenced from:
+      protocol witness for Swift.Hashable.hash(into: inout Swift.Hasher) -> () in conformance RNImageColors.UIImageColorsQuality : Swift.Hashable in RNImageColors in libRNImageColors.a(UIImageColors.o)
+  "__swift_FORCE_LOAD_$_swiftObjectiveC", referenced from:
+      __swift_FORCE_LOAD_$_swiftObjectiveC_$_RNImageColors in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      __swift_FORCE_LOAD_$_swiftObjectiveC_$_RNImageColors in libRNImageColors.a(UIImageColors.o)
+     (maybe you meant: __swift_FORCE_LOAD_$_swiftObjectiveC_$_RNImageColors)
+  "(extension in Swift):Swift.RawRepresentable< where A: Swift.Hashable, A.Swift.RawRepresentable.RawValue: Swift.Hashable>.hashValue.getter : Swift.Int", referenced from:
+      protocol witness for Swift.Hashable.hashValue.getter : Swift.Int in conformance RNImageColors.UIImageColorsQuality : Swift.Hashable in RNImageColors in libRNImageColors.a(UIImageColors.o)
+  "type metadata accessor for Dispatch.DispatchQoS", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality, _: (RNImageColors.UIImageColors?) -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+      closure #1 () -> () in (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality, _: (RNImageColors.UIImageColors?) -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+  "(extension in Foundation):Swift.Dictionary._bridgeToObjectiveC() -> __C.NSDictionary", referenced from:
+      @nonobjc __C.NSError.init(domain: Swift.String, code: Swift.Int, userInfo: [Swift.String : Any]?) -> __C.NSError in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "__swift_FORCE_LOAD_$_swiftQuartzCore", referenced from:
+      __swift_FORCE_LOAD_$_swiftQuartzCore_$_RNImageColors in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      __swift_FORCE_LOAD_$_swiftQuartzCore_$_RNImageColors in libRNImageColors.a(UIImageColors.o)
+     (maybe you meant: __swift_FORCE_LOAD_$_swiftQuartzCore_$_RNImageColors)
+  "Swift.Array.subscript.modify : (Swift.Int) -> A", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "__swift_FORCE_LOAD_$_swiftMetal", referenced from:
+      __swift_FORCE_LOAD_$_swiftMetal_$_RNImageColors in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      __swift_FORCE_LOAD_$_swiftMetal_$_RNImageColors in libRNImageColors.a(UIImageColors.o)
+     (maybe you meant: __swift_FORCE_LOAD_$_swiftMetal_$_RNImageColors)
+  "_swift_unknownObjectRelease", referenced from:
+      RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      reabstraction thunk helper from @escaping @callee_unowned @convention(block) (@unowned Swift.AnyObject?) -> () to @escaping @callee_guaranteed (@in_guaranteed Any?) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "dispatch thunk of Swift.SetAlgebra.init<A where A1: Swift.Sequence, A.Element == A1.Element>(__owned A1) -> A", referenced from:
+      default argument 2 of (extension in Dispatch):__C.OS_dispatch_queue.async(group: __C.OS_dispatch_group?, qos: Dispatch.DispatchQoS, flags: Dispatch.DispatchWorkItemFlags, execute: @convention(block) () -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+  "protocol conformance descriptor for Swift.UInt64 : Swift.FixedWidthInteger in Swift", referenced from:
+      lazy protocol witness table accessor for type Swift.UInt64 and conformance Swift.UInt64 : Swift.FixedWidthInteger in Swift in libRNImageColors.a(UIImageColors.o)
+  "__swift_FORCE_LOAD_$_swiftCoreImage", referenced from:
+      __swift_FORCE_LOAD_$_swiftCoreImage_$_RNImageColors in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      __swift_FORCE_LOAD_$_swiftCoreImage_$_RNImageColors in libRNImageColors.a(UIImageColors.o)
+     (maybe you meant: __swift_FORCE_LOAD_$_swiftCoreImage_$_RNImageColors)
+  "__swift_FORCE_LOAD_$_swiftDispatch", referenced from:
+      __swift_FORCE_LOAD_$_swiftDispatch_$_RNImageColors in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      __swift_FORCE_LOAD_$_swiftDispatch_$_RNImageColors in libRNImageColors.a(UIImageColors.o)
+     (maybe you meant: __swift_FORCE_LOAD_$_swiftDispatch_$_RNImageColors)
+  "__swift_FORCE_LOAD_$_swiftFoundation", referenced from:
+      __swift_FORCE_LOAD_$_swiftFoundation_$_RNImageColors in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      __swift_FORCE_LOAD_$_swiftFoundation_$_RNImageColors in libRNImageColors.a(UIImageColors.o)
+     (maybe you meant: __swift_FORCE_LOAD_$_swiftFoundation_$_RNImageColors)
+  "enum case for Dispatch.DispatchQoS.QoSClass.default(Dispatch.DispatchQoS.QoSClass.Type) -> Dispatch.DispatchQoS.QoSClass", referenced from:
+      default argument 0 of static (extension in Dispatch):__C.OS_dispatch_queue.global(qos: Dispatch.DispatchQoS.QoSClass) -> __C.OS_dispatch_queue in libRNImageColors.a(UIImageColors.o)
+  "__swift_FORCE_LOAD_$_swiftDarwin", referenced from:
+      __swift_FORCE_LOAD_$_swiftDarwin_$_RNImageColors in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      __swift_FORCE_LOAD_$_swiftDarwin_$_RNImageColors in libRNImageColors.a(UIImageColors.o)
+     (maybe you meant: __swift_FORCE_LOAD_$_swiftDarwin_$_RNImageColors)
+  "protocol descriptor for Swift.CVarArg", referenced from:
+      _symbolic ______p s7CVarArgP in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "type metadata accessor for Dispatch.DispatchQoS.QoSClass", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality, _: (RNImageColors.UIImageColors?) -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+      default argument 0 of static (extension in Dispatch):__C.OS_dispatch_queue.global(qos: Dispatch.DispatchQoS.QoSClass) -> __C.OS_dispatch_queue in libRNImageColors.a(UIImageColors.o)
+  "(extension in Swift):Swift.Range< where A: Swift.Strideable, A.Stride: Swift.SignedInteger>.subscript.getter : (A) -> A", referenced from:
+      (extension in Swift):Swift.Range< where A: Swift.Strideable, A.Stride: Swift.SignedInteger>.subscript.read : (A) -> A in libRNImageColors.a(UIImageColors.o)
+  "dispatch thunk of static Swift.BinaryInteger.isSigned.getter : Swift.Bool", referenced from:
+      CoreGraphics.CGFloat.init<A where A: Swift.BinaryInteger>(A) -> CoreGraphics.CGFloat in libRNImageColors.a(UIImageColors.o)
+  "(extension in Foundation):Swift.String._bridgeToObjectiveC() -> __C.NSString", referenced from:
+      RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      reabstraction thunk helper from @callee_unowned @convention(block) (@unowned __C.NSString?, @unowned __C.NSString?, @unowned __C.NSError?) -> () to @escaping @callee_guaranteed (@guaranteed Swift.String?, @guaranteed Swift.String?, @guaranteed Swift.Error?) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      @nonobjc __C.NSError.init(domain: Swift.String, code: Swift.Int, userInfo: [Swift.String : Any]?) -> __C.NSError in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "protocol conformance descriptor for Swift.Int : Swift.BinaryInteger in Swift", referenced from:
+      lazy protocol witness table accessor for type Swift.Int and conformance Swift.Int : Swift.BinaryInteger in Swift in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "_swift_getWitnessTable", referenced from:
+      lazy protocol witness table accessor for type Swift.Int and conformance Swift.Int : Swift.FixedWidthInteger in Swift in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      lazy protocol witness table accessor for type Swift.Int and conformance Swift.Int : Swift.BinaryInteger in Swift in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      lazy protocol witness table accessor for type Swift.Int and conformance Swift.Int : Swift.SignedInteger in Swift in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      lazy protocol witness table accessor for type RNImageColors.UIImageColorsQuality and conformance RNImageColors.UIImageColorsQuality : Swift.RawRepresentable in RNImageColors in libRNImageColors.a(UIImageColors.o)
+      lazy protocol witness table accessor for type CoreGraphics.CGFloat and conformance CoreGraphics.CGFloat : Swift.Equatable in CoreGraphics in libRNImageColors.a(UIImageColors.o)
+      lazy protocol witness table accessor for type Foundation.NSFastEnumerationIterator and conformance Foundation.NSFastEnumerationIterator : Swift.IteratorProtocol in Foundation in libRNImageColors.a(UIImageColors.o)
+      lazy protocol witness table accessor for type Swift.ClosedRange<Swift.Int> and conformance < where A: Swift.Strideable, A.Stride: Swift.SignedInteger> Swift.ClosedRange<A> : Swift.Collection in Swift in libRNImageColors.a(UIImageColors.o)
+      ...
+  "protocol witness table for Swift.Int : Swift.Comparable in Swift", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "_swift_bridgeObjectRelease", referenced from:
+      RNImageColors.ImageColors.(getQuality in _F8948533575882E9C6CF2A2C14A8DEB5)(qualityOption: Swift.String) -> RNImageColors.UIImageColorsQuality in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      RNImageColors.ImageColors.(toHexString in _F8948533575882E9C6CF2A2C14A8DEB5)(color: __C.UIColor) -> Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      l_objectdestroy in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      @objc RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      reabstraction thunk helper from @callee_unowned @convention(block) (@unowned __C.NSString?, @unowned __C.NSString?, @unowned __C.NSError?) -> () to @escaping @callee_guaranteed (@guaranteed Swift.String?, @guaranteed Swift.String?, @guaranteed Swift.Error?) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      outlined destroy of Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      ...
+  "_swift_getTypeByMangledNameInContextInMetadataState", referenced from:
+      ___swift_instantiateConcreteTypeFromMangledNameAbstract in libRNImageColors.a(UIImageColors.o)
+  "protocol witness table for Swift.Int : Swift.CVarArg in Swift", referenced from:
+      RNImageColors.ImageColors.(toHexString in _F8948533575882E9C6CF2A2C14A8DEB5)(color: __C.UIColor) -> Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "static (extension in Dispatch):__C.OS_dispatch_queue.main.getter : __C.OS_dispatch_queue", referenced from:
+      closure #1 () -> () in (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality, _: (RNImageColors.UIImageColors?) -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+  "(extension in Swift):Swift.Range< where A: Swift.Strideable, A.Stride: Swift.SignedInteger>.endIndex.getter : A", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "method descriptor for Swift.RawRepresentable.init(rawValue: A.RawValue) -> A?", referenced from:
+      l_got.$sSY8rawValuexSg03RawB0Qz_tcfCTq in libRNImageColors.a(UIImageColors.o)
+  "dispatch thunk of Swift.BinaryInteger.bitWidth.getter : Swift.Int", referenced from:
+      CoreGraphics.CGFloat.init<A where A: Swift.BinaryInteger>(A) -> CoreGraphics.CGFloat in libRNImageColors.a(UIImageColors.o)
+  "_swift_errorRetain", referenced from:
+      reabstraction thunk helper from @callee_unowned @convention(block) (@unowned __C.NSString?, @unowned __C.NSString?, @unowned __C.NSError?) -> () to @escaping @callee_guaranteed (@guaranteed Swift.String?, @guaranteed Swift.String?, @guaranteed Swift.Error?) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "Swift.Array.subscript.getter : (Swift.Int) -> A", referenced from:
+      RNImageColors.ImageColors.(toHexString in _F8948533575882E9C6CF2A2C14A8DEB5)(color: __C.UIColor) -> Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "dispatch thunk of Swift.IteratorProtocol.next() -> A.Element?", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "(extension in CoreGraphics):__C.CGColorRef.components.getter : [CoreGraphics.CGFloat]?", referenced from:
+      RNImageColors.ImageColors.(toHexString in _F8948533575882E9C6CF2A2C14A8DEB5)(color: __C.UIColor) -> Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "Foundation._convertErrorToNSError(Swift.Error) -> __C.NSError", referenced from:
+      reabstraction thunk helper from @callee_unowned @convention(block) (@unowned __C.NSString?, @unowned __C.NSString?, @unowned __C.NSError?) -> () to @escaping @callee_guaranteed (@guaranteed Swift.String?, @guaranteed Swift.String?, @guaranteed Swift.Error?) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "value witness table for Builtin.Int64", referenced from:
+      full type metadata for __C.NSComparisonResult in libRNImageColors.a(UIImageColors.o)
+  "_swift_deallocObject", referenced from:
+      l_objectdestroy in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      l_objectdestroy.2 in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      l_objectdestroy in libRNImageColors.a(UIImageColors.o)
+      l_objectdestroy.2 in libRNImageColors.a(UIImageColors.o)
+      l_objectdestroy.8 in libRNImageColors.a(UIImageColors.o)
+      l_objectdestroy.15 in libRNImageColors.a(UIImageColors.o)
+  "_swift_retain", referenced from:
+      RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      outlined copy of Foundation.Data._Representation in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      closure #1 (RNImageColors.UIImageColors?) -> () in RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality, _: (RNImageColors.UIImageColors?) -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+      closure #1 () -> () in (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality, _: (RNImageColors.UIImageColors?) -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+      closure #1 () -> () in closure #1 () -> () in (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality, _: (RNImageColors.UIImageColors?) -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+      ...
+  "Swift._allocateUninitializedArray<A>(Builtin.Word) -> ([A], Builtin.RawPointer)", referenced from:
+      RNImageColors.ImageColors.(toHexString in _F8948533575882E9C6CF2A2C14A8DEB5)(color: __C.UIColor) -> Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      closure #1 (RNImageColors.UIImageColors?) -> () in RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "protocol witness table for Swift.String : Swift.Hashable in Swift", referenced from:
+      closure #1 (RNImageColors.UIImageColors?) -> () in RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      @nonobjc __C.NSError.init(domain: Swift.String, code: Swift.Int, userInfo: [Swift.String : Any]?) -> __C.NSError in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "method descriptor for Swift.Hashable.hashValue.getter : Swift.Int", referenced from:
+      l_got.$sSH9hashValueSivgTq in libRNImageColors.a(UIImageColors.o)
+  "(extension in Swift):Swift.FixedWidthInteger.init<A where A1: Swift.BinaryInteger>(truncatingIfNeeded: A1) -> A", referenced from:
+      RNImageColors.ImageColors.(toHexString in _F8948533575882E9C6CF2A2C14A8DEB5)(color: __C.UIColor) -> Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "value witness table for ()", referenced from:
+      full type metadata for RNImageColors.ImageColors.ERRORS in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "(extension in Dispatch):__C.OS_dispatch_queue.async(group: __C.OS_dispatch_group?, qos: Dispatch.DispatchQoS, flags: Dispatch.DispatchWorkItemFlags, execute: @convention(block) () -> ()) -> ()", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality, _: (RNImageColors.UIImageColors?) -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+      closure #1 () -> () in (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality, _: (RNImageColors.UIImageColors?) -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+     (maybe you meant: default argument 2 of (extension in Dispatch):__C.OS_dispatch_queue.async(group: __C.OS_dispatch_group?, qos: Dispatch.DispatchQoS, flags: Dispatch.DispatchWorkItemFlags, execute: @convention(block) () -> ()) -> (), default argument 0 of (extension in Dispatch):__C.OS_dispatch_queue.async(group: __C.OS_dispatch_group?, qos: Dispatch.DispatchQoS, flags: Dispatch.DispatchWorkItemFlags, execute: @convention(block) () -> ()) -> () , default argument 1 of (extension in Dispatch):__C.OS_dispatch_queue.async(group: __C.OS_dispatch_group?, qos: Dispatch.DispatchQoS, flags: Dispatch.DispatchWorkItemFlags, execute: @convention(block) () -> ()) -> () )
+  "protocol descriptor for Swift.Hashable", referenced from:
+      l_got.$sSHMp in libRNImageColors.a(UIImageColors.o)
+  "Swift.Dictionary.init(dictionaryLiteral: (A, B)...) -> [A : B]", referenced from:
+      closure #1 (RNImageColors.UIImageColors?) -> () in RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "protocol conformance descriptor for Swift.Int : Swift.SignedInteger in Swift", referenced from:
+      lazy protocol witness table accessor for type Swift.Int and conformance Swift.Int : Swift.SignedInteger in Swift in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "protocol conformance descriptor for CoreGraphics.CGFloat : Swift.Equatable in CoreGraphics", referenced from:
+      lazy protocol witness table accessor for type CoreGraphics.CGFloat and conformance CoreGraphics.CGFloat : Swift.Equatable in CoreGraphics in libRNImageColors.a(UIImageColors.o)
+  "Swift.Dictionary.subscript.setter : (A) -> B?", referenced from:
+      closure #1 (RNImageColors.UIImageColors?) -> () in RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "type metadata for Swift.UInt8", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+      lazy protocol witness table accessor for type Swift.UInt8 and conformance Swift.UInt8 : Swift.BinaryInteger in Swift in libRNImageColors.a(UIImageColors.o)
+  "_swift_getObjCClassFromMetadata", referenced from:
+      __C.NSError.__allocating_init(domain: Swift.String, code: Swift.Int, userInfo: [Swift.String : Any]?) -> __C.NSError in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      __C.UIImage.__allocating_init(data: Foundation.Data) -> __C.UIImage? in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      __C.UIColor.__allocating_init(red: CoreGraphics.CGFloat, green: CoreGraphics.CGFloat, blue: CoreGraphics.CGFloat, alpha: CoreGraphics.CGFloat) -> __C.UIColor in libRNImageColors.a(UIImageColors.o)
+      __C.NSCountedSet.__allocating_init(capacity: Swift.Int) -> __C.NSCountedSet in libRNImageColors.a(UIImageColors.o)
+      __C.NSMutableArray.__allocating_init(capacity: Swift.Int) -> __C.NSMutableArray in libRNImageColors.a(UIImageColors.o)
+  "(extension in Swift):Swift.ClosedRange< where A: Swift.Strideable, A.Stride: Swift.SignedInteger>.startIndex.getter : (extension in Swift):Swift.ClosedRange<A>< where A: Swift.Strideable, A.Stride: Swift.SignedInteger>.Index", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "_swift_getObjCClassMetadata", referenced from:
+      type metadata accessor for __C.NSError in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      type metadata accessor for __C.UIImage in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      type metadata accessor for __C.OS_dispatch_queue in libRNImageColors.a(UIImageColors.o)
+      type metadata accessor for __C.NSCountedSet in libRNImageColors.a(UIImageColors.o)
+      type metadata accessor for __C.NSMutableArray in libRNImageColors.a(UIImageColors.o)
+      type metadata accessor for __C.UIColor in libRNImageColors.a(UIImageColors.o)
+  "type metadata for CoreGraphics.CGFloat", referenced from:
+      RNImageColors.ImageColors.(toHexString in _F8948533575882E9C6CF2A2C14A8DEB5)(color: __C.UIColor) -> Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      lazy protocol witness table accessor for type CoreGraphics.CGFloat and conformance CoreGraphics.CGFloat : Swift.Equatable in CoreGraphics in libRNImageColors.a(UIImageColors.o)
+      lazy protocol witness table accessor for type CoreGraphics.CGFloat and conformance CoreGraphics.CGFloat : Swift.Hashable in CoreGraphics in libRNImageColors.a(UIImageColors.o)
+  "Swift.== infix<A where A: Swift.RawRepresentable, A.RawValue: Swift.Equatable>(A, A) -> Swift.Bool", referenced from:
+      protocol witness for static Swift.Equatable.== infix(A, A) -> Swift.Bool in conformance RNImageColors.UIImageColorsQuality : Swift.Equatable in RNImageColors in libRNImageColors.a(UIImageColors.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "method descriptor for Swift.Hashable.hash(into: inout Swift.Hasher) -> ()", referenced from:
+      l_got.$sSH4hash4intoys6HasherVz_tFTq in libRNImageColors.a(UIImageColors.o)
+  "Foundation.URL.init(string: __shared Swift.String) -> Foundation.URL?", referenced from:
+      RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "Swift._bridgeAnythingToObjectiveC<A>(A) -> Swift.AnyObject", referenced from:
+      RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      reabstraction thunk helper from @escaping @callee_unowned @convention(block) (@unowned Swift.AnyObject?) -> () to @escaping @callee_guaranteed (@in_guaranteed Any?) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "Swift.Double.isFinite.getter : Swift.Bool", referenced from:
+      RNImageColors.ImageColors.(toHexString in _F8948533575882E9C6CF2A2C14A8DEB5)(color: __C.UIColor) -> Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "type metadata accessor for Foundation.URL", referenced from:
+      RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      outlined destroy of Foundation.URL? in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "Swift._bridgeAnyObjectToAny(Swift.AnyObject?) -> Any", referenced from:
+      RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "static Dispatch.DispatchQoS.unspecified.getter : Dispatch.DispatchQoS", referenced from:
+      default argument 1 of (extension in Dispatch):__C.OS_dispatch_queue.async(group: __C.OS_dispatch_group?, qos: Dispatch.DispatchQoS, flags: Dispatch.DispatchWorkItemFlags, execute: @convention(block) () -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+  "Foundation.Data.init(contentsOf: __shared Foundation.URL, options: __C.NSDataReadingOptions) throws -> Foundation.Data", referenced from:
+      RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "nominal type descriptor for CoreGraphics.CGFloat", referenced from:
+      _symbolic _____ 12CoreGraphics7CGFloatV in libRNImageColors.a(UIImageColors.o)
+  "(extension in Swift):Swift.SignedInteger< where A: Swift.FixedWidthInteger>.init<A where A1: Swift.BinaryInteger>(A1) -> A", referenced from:
+      RNImageColors.ImageColors.(toHexString in _F8948533575882E9C6CF2A2C14A8DEB5)(color: __C.UIColor) -> Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "static (extension in Foundation):Swift.String._unconditionallyBridgeFromObjectiveC(__C.NSString?) -> Swift.String", referenced from:
+      @objc RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "type metadata accessor for Swift.Array", referenced from:
+      Swift._finalizeUninitializedArray<A>(__owned [A]) -> [A] in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "_swift_errorRelease", referenced from:
+      RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      reabstraction thunk helper from @callee_unowned @convention(block) (@unowned __C.NSString?, @unowned __C.NSString?, @unowned __C.NSError?) -> () to @escaping @callee_guaranteed (@guaranteed Swift.String?, @guaranteed Swift.String?, @guaranteed Swift.Error?) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "(extension in Foundation):__C.NSArray.makeIterator() -> Foundation.NSFastEnumerationIterator", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "type metadata accessor for Swift.ClosedRange", referenced from:
+      Swift.ClosedRange.init(_uncheckedBounds: (lower: A, upper: A)) -> Swift.ClosedRange<A> in libRNImageColors.a(UIImageColors.o)
+  "__swift_FORCE_LOAD_$_swiftCoreFoundation", referenced from:
+      __swift_FORCE_LOAD_$_swiftCoreFoundation_$_RNImageColors in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      __swift_FORCE_LOAD_$_swiftCoreFoundation_$_RNImageColors in libRNImageColors.a(UIImageColors.o)
+     (maybe you meant: __swift_FORCE_LOAD_$_swiftCoreFoundation_$_RNImageColors)
+  "Swift.String.init(_builtinStringLiteral: Builtin.RawPointer, utf8CodeUnitCount: Builtin.Word, isASCII: Builtin.Int1) -> Swift.String", referenced from:
+      variable initialization expression of RNImageColors.ImageColors.(fallback in _F8948533575882E9C6CF2A2C14A8DEB5) : Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      one-time initialization function for ERROR_1 in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      one-time initialization function for ERROR_2 in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      one-time initialization function for ERROR_3 in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      RNImageColors.ImageColors.(getQuality in _F8948533575882E9C6CF2A2C14A8DEB5)(qualityOption: Swift.String) -> RNImageColors.UIImageColorsQuality in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      RNImageColors.ImageColors.(toHexString in _F8948533575882E9C6CF2A2C14A8DEB5)(color: __C.UIColor) -> Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      ...
+  "protocol conformance descriptor for Swift.Int : Swift.FixedWidthInteger in Swift", referenced from:
+      lazy protocol witness table accessor for type Swift.Int and conformance Swift.Int : Swift.FixedWidthInteger in Swift in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "protocol conformance descriptor for Foundation.NSFastEnumerationIterator : Swift.IteratorProtocol in Foundation", referenced from:
+      lazy protocol witness table accessor for type Foundation.NSFastEnumerationIterator and conformance Foundation.NSFastEnumerationIterator : Swift.IteratorProtocol in Foundation in libRNImageColors.a(UIImageColors.o)
+  "(extension in Foundation):Swift.Double._bridgeToObjectiveC() -> __C.NSNumber", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "__swift_FORCE_LOAD_$_swiftCoreGraphics", referenced from:
+      __swift_FORCE_LOAD_$_swiftCoreGraphics_$_RNImageColors in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      __swift_FORCE_LOAD_$_swiftCoreGraphics_$_RNImageColors in libRNImageColors.a(UIImageColors.o)
+     (maybe you meant: __swift_FORCE_LOAD_$_swiftCoreGraphics_$_RNImageColors)
+  "(extension in Swift):Swift.Collection.formIndex(after: inout A.Index) -> ()", referenced from:
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "_swift_dynamicCast", referenced from:
+      RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+      closure #1 (Any, Any) -> __C.NSComparisonResult in (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "protocol witness table for Swift.Double : Swift.Comparable in Swift", referenced from:
+      (extension in RNImageColors):Swift.Double.(with in _AC2E7C9309FDFD8BC6B0187157C06AA1)(minSaturation: Swift.Double) -> Swift.Double in libRNImageColors.a(UIImageColors.o)
+  "value witness table for Builtin.UnknownObject", referenced from:
+      full type metadata for RNImageColors.ImageColors in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "_swift_release", referenced from:
+      RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      ___swift_destroy_boxed_opaque_existential_0 in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      outlined consume of Foundation.Data._Representation in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      closure #1 (RNImageColors.UIImageColors?) -> () in RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      l_objectdestroy in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      @objc RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality, _: (RNImageColors.UIImageColors?) -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+      ...
+  "__swift_FORCE_LOAD_$_swiftUIKit", referenced from:
+      __swift_FORCE_LOAD_$_swiftUIKit_$_RNImageColors in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      __swift_FORCE_LOAD_$_swiftUIKit_$_RNImageColors in libRNImageColors.a(UIImageColors.o)
+     (maybe you meant: __swift_FORCE_LOAD_$_swiftUIKit_$_RNImageColors)
+  "Swift._assertionFailure(_: Swift.StaticString, _: Swift.StaticString, file: Swift.StaticString, line: Swift.UInt, flags: Swift.UInt32) -> Swift.Never", referenced from:
+      RNImageColors.ImageColors.(toHexString in _F8948533575882E9C6CF2A2C14A8DEB5)(color: __C.UIColor) -> Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      (extension in RNImageColors):Swift.Double.(with in _AC2E7C9309FDFD8BC6B0187157C06AA1)(minSaturation: Swift.Double) -> Swift.Double in libRNImageColors.a(UIImageColors.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+  "_swift_bridgeObjectRetain", referenced from:
+      static RNImageColors.ImageColors.ERRORS.ERROR_1.getter : Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      static RNImageColors.ImageColors.ERRORS.ERROR_2.getter : Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      static RNImageColors.ImageColors.ERRORS.ERROR_3.getter : Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      RNImageColors.ImageColors.(getQuality in _F8948533575882E9C6CF2A2C14A8DEB5)(qualityOption: Swift.String) -> RNImageColors.UIImageColorsQuality in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      RNImageColors.ImageColors.(toHexString in _F8948533575882E9C6CF2A2C14A8DEB5)(color: __C.UIColor) -> Swift.String in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      closure #1 (RNImageColors.UIImageColors?) -> () in RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      ...
+  "static Swift.String.== infix(Swift.String, Swift.String) -> Swift.Bool", referenced from:
+      RNImageColors.ImageColors.(getQuality in _F8948533575882E9C6CF2A2C14A8DEB5)(qualityOption: Swift.String) -> RNImageColors.UIImageColorsQuality in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+  "_swift_allocObject", referenced from:
+      RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      @objc RNImageColors.ImageColors.getColors(_: Swift.String, config: __C.NSDictionary, resolver: (Any?) -> (), rejecter: (Swift.String?, Swift.String?, Swift.Error?) -> ()) -> () in libRNImageColors.a(ImageColors-326bf064a8e2c7e8065ba7f7c839e7ceb73dd151744ccc7a5711e6c516943f90.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality, _: (RNImageColors.UIImageColors?) -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+      closure #1 () -> () in (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality, _: (RNImageColors.UIImageColors?) -> ()) -> () in libRNImageColors.a(UIImageColors.o)
+      (extension in RNImageColors):__C.UIImage.getColors(quality: RNImageColors.UIImageColorsQuality) -> RNImageColors.UIImageColors? in libRNImageColors.a(UIImageColors.o)
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+/Users/wordpressdeveloper/Desktop/ReactNative/Pokedex/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 8.0, but the range of supported deployment target versions is 9.0 to 14.5.99. (in target 'boost-for-react-native' from project 'Pods')
+
+objc[26877]: Class AMSupportURLConnectionDelegate is implemented in both /usr/lib/libauthinstall.dylib (0x1efd99160) and /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x113cac2b8). One of the two will be used. Which one is undefined.
+objc[26877]: Class AMSupportURLSession is implemented in both /usr/lib/libauthinstall.dylib (0x1efd991b0) and /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x113cac308). One of the two will be used. Which one is undefined.
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld /Users/wordpressdeveloper/Library/Developer/Xcode/DerivedData/Pokedex-hczidjeosscmklbovkghzijfhvxl/Build/Products/Debug-iphonesimulator/Pokedex.app/Pokedex normal
+(1 failure)
+
+info Run CLI with --verbose flag for more details.
